@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.contenedor-lista-{
+    padding: 2rem;
+}
+.contenedor-producto, .titulos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: start;
+    text-align: center;
+
+}
+
+.contenedor-producto h2{
+    font-size: 1rem;
+}
+
+
+
+.titulos p {
+    border: solid;
+    height: 100%;
+}
+
+.contenedor-items{
+    border: solid;
+}
+
+.create form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
